@@ -14,6 +14,7 @@ import (
 	"github.com/pdepip/go-binance/binance"
 	"github.com/stroncium/discordgo"
 	"github.com/stroncium/gg"
+	"github.com/Drift-Security/mcobots"
 )
 
 type BinancePriceUpdater struct {
