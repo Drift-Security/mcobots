@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+  mcobots:
+    build: ./
+  price:
+    build: ./cmd/mcobot_price
+    env_file: ./.env
+  reservs:
+    build: ./cmd/mcobot_reservs
+    env_file: ./.env
+
